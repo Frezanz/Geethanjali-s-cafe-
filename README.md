@@ -1,13 +1,9 @@
 # Geethanjali's Cafe
 
-Premium, mobile-first cafe landing page concept built as a sales demo.
+A premium, mobile-first cafe website concept built as a sales demo.
 
-## Stack
-- HTML
-- CSS
-- Vanilla JavaScript
-- Google Fonts
-- Unsplash imagery for demo visuals
+## Design
+Warm editorial typography, strong food imagery, clear menu/location CTAs, responsive mobile navigation, and restrained motion.
 
-## Notes
-The current version intentionally uses placeholder imagery and a simplified menu structure. Before delivery to the cafe, replace imagery with the cafe's own photos and verify the exact Google Maps address, opening hours, phone number, menu items and prices.
+## Before client delivery
+Replace demo imagery and placeholder menu copy/prices with the cafe's own assets and verified details. Verify address, hours, phone number and ordering links.

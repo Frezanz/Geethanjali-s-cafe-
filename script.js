@@ -1,4 +1,1 @@
-document.getElementById('year').textContent=new Date().getFullYear();
-const reveals=[...document.querySelectorAll('.reveal')];
-const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.style.animationPlayState='running';observer.unobserve(entry.target)}}),{threshold:.12});
-reveals.forEach(el=>{el.style.animationPlayState='paused';observer.observe(el)});
+const toggle=document.querySelector('.menu-toggle');const mobile=document.querySelector('.mobile-nav');toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));mobile.classList.toggle('open',!open)});document.querySelectorAll('.mobile-nav a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');mobile.classList.remove('open')}));document.getElementById('year').textContent=new Date().getFullYear();
